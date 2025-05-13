@@ -1,0 +1,38 @@
+Machine Learning Engineering Bootcamp Capstone Project: Experiment With Various Models
+Step 7
+Learning Objective
+
+Learn how to pick the right performance metric for the problem, and how it might impact the results
+Learn how to use a computational framework (distributed preferably) to easily setup reproducible training tests for various models
+Learn how to recognize which model might be underfitting or overfitting the training data
+Learn how to properly cross validate your model, to avoid selecting a particular model based on an apriori random training/test split
+Learn how to summarize and present results well
+
+Criteria
+Meets Expectations
+Weightage
+Time Estimate
+6 - 12  Hours
+
+
+Completion
+Final model has acceptable  performance/accuracy for the problem at hand (1 point)
+An automated process was created to test different models, and tune them each one after another (1 point)
+The final model shows ability to generalize well from the training data while being still able to to provide good performance according to the performance metric (1 point)
+3 points
+Process and understanding
+The correct performance metric is picked (1 point)
+A clear and clean reproducible cross validation process is defined for the problem at hand (1 point)
+A good variety of models are evaluated (different architectures if Deep Learning, or different types if more traditional) (1 point)
+Student demonstrated they did not overfit or underfit their model (1 point)
+The best model is evaluated also in terms of training time, final size and underlying cost (1 point)
+5 points
+Presentation
+Github repo is shared detailed results of all the experiments/tuning sessions (1 point)
+Presentation includes an abundance of graphs (training/testing over time curves, confusion matrices if applicable, etc..) (1 point)
+2 points
+
+
+Excellence: 
+The student built an ensemble model on top of the best models with different parameters and showing close to SOTA type results for the problem at hand. Additionally might have used cloud service/instances to perform hyperparameter tuning/search versus using their own computer.
+
